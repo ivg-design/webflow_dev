@@ -1,8 +1,11 @@
 {
   "name": "webflow-dev-repo",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Template for local Webflow development with Parcel",
   "main": "index.js",
+  "bin": {
+    "webflow-dev-repo": "./cli.js"
+  },
   "scripts": {
     "start": "parcel src/index.js",
     "build": "parcel build src/index.html"
@@ -11,7 +14,9 @@
   "license": "MIT",
   "files": [
     "src",
-    "index.js"
+    "index.js",
+    "cli.js",
+    "template"
   ],
   "devDependencies": {
     "parcel": "^2.0.0"
