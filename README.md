@@ -63,10 +63,9 @@ To create a new project using this template, follow these steps:
 
 2. **Interactive Setup**:
 
-   - **Enter Project Directory Name**: You will be prompted to enter the name of your new or existing project directory.
    - **Choose an Option**:
-     - **Create a New Folder**: If you choose this option, the tool will create a new directory with the specified name and set up the project there.
-     - **Install into Existing Folder**: If you choose this option, the tool will install the template into the specified existing directory.
+     - **Install into Current Folder**: If you choose this option, the tool will install the template into the current directory.
+     - **Create a New Folder**: If you choose this option, you will be prompted to enter the name of the new directory, and the tool will create it and set up the project there.
 
 3. **Start Developing**:
 
