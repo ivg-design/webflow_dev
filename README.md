@@ -77,3 +77,33 @@ To create a new project using this template, follow these steps:
    ```
 
    This will create a production-ready build in the `dist` directory. 
+
+
+## Using the Template
+
+To create a new project using this template, follow these steps:
+
+1. **Create a New Project**:
+
+   ```bash
+   npx webflow-dev-repo <project-directory>
+   ```
+
+   Replace `<project-directory>` with the name of your new project directory.
+
+2. **Start Developing**:
+
+   ```bash
+   cd <project-directory>
+   npm start
+   ```
+
+   This will start the development server with hot reloading.
+
+3. **Build for Production**:
+
+   ```bash
+   npm run build
+   ```
+
+   This will create a production-ready build in the `dist` directory. 
