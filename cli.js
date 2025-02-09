@@ -4,6 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 const inquirer = require('inquirer');
+const fsExtra = require('fs-extra');
 
 async function setupProject() {
   const questions = [
@@ -54,11 +55,7 @@ async function setupProject() {
     process.exit(1);
   }
 
-  fs.readdirSync(templateDir).forEach(file => {
-    const src = path.join(templateDir, file);
-    const dest = path.join(projectPath, file);
-    fs.copyFileSync(src, dest);
-  });
+  fsExtra.copySync(templateDir, projectPath);
 
   // Update package.json with the project name
   const packageJsonPath = path.join(projectPath, 'package.json');
