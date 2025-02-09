@@ -1,0 +1,12 @@
+{
+  "name": "webflow-dev-repo",
+  "version": "1.0.0",
+  "description": "template for local webflow development with parcel",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.js",
+    "build": "parcel build src/index.html"
+  },
+  "author": "IVG Design",
+  "license": "MIT"
+}
