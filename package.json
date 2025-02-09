@@ -1,6 +1,6 @@
 {
   "name": "webflow-dev-repo",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Template for local Webflow development with Parcel",
   "main": "index.js",
   "bin": {
@@ -20,5 +20,8 @@
   ],
   "devDependencies": {
     "parcel": "^2.0.0"
+  },
+  "dependencies": {
+    "inquirer": "^8.0.0"
   }
 }
